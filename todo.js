@@ -20,7 +20,7 @@ function addElements() {
     newButt.innerHTML = 'x';
     newDiv.className = 'newDiv';
     newButt.className = 'newButt';
-    document.getElementById('list').firstElementChild.style.textTransform = 'capitalize';
+    document.getElementById('list').style.textTransform = 'capitalize';
     newDiv.innerHTML = text;
     newButt.addEventListener('click', function() { list.removeChild(flexDiv) });
 
